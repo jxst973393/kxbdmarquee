@@ -1,0 +1,17 @@
+<div id="marquee" class="marquee">
+	      <ul class="clearfix">
+	        <li>恭喜180****3802用户抽中188元现金红包</li>
+	        <li>恭喜180****3802用户抽中188元现金红包</li>
+	        <li>恭喜180****3802用户抽中188元现金红包</li>
+	        <li>恭喜180****3802用户抽中188元现金红包</li>
+	      </ul>
+	    </div>
+      
+      
+      
+.marquee {width: 5.48rem;height: 0.55rem;overflow: hidden;margin: 0 auto;background: #ffcd2c;border-radius: 0.3rem;}
+.marquee ul li {float:left;padding:0rem 0.5rem;height: 0.55rem;font-size: 0.26rem;color: #ad5a09;line-height: 0.55rem;}
+
+
+
+$("#marquee").kxbdMarquee({isEqual:false});
