@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="../Public/Js/luckycj/bigsize.js"></script> //rem文件
+</head>
+<style type="text/css">
+html{font-size: 50px;}
+.cn-wrapper ul{overflow: hidden;}
+	.cn-wrapper li {
+  position: absolute;
+  /*font-size: 1.5em;*/
+  width: 2.2rem;
+  height: 1.2rem;
+  transform-origin: 100% 100%;
+  overflow: hidden;
+  /*left: 50%;
+  top: 50%;
+  margin-top: -1.3em;
+  margin-left: -10em;*/
+  transition: border .3s ease;
+}
+
+.cn-wrapper li a {
+  display: block;
+  /*font-size: 1.18em;*/
+  height: 4.4rem;
+  width: 4.4rem;
+  position: absolute;
+  bottom: -2.2rem;
+  right: -2.2rem;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #9c4700;
+  font-size: 0.16rem;
+  padding-top: 0.22rem;box-sizing: border-box;
+  text-align: center;
+  transform: skew(-60deg) rotate(-70deg) scale(1);
+  transition: opacity 0.3s, color 0.3s;
+}
+
+.cn-wrapper li a span {
+	display: block;margin-left: -0.32rem;
+  /*font-size: 1.1em;
+  opacity: 0.7;*/
+}
+.cn-wrapper li:first-child {
+  transform: rotate(0deg) skew(60deg);
+}
+
+.cn-wrapper li:nth-child(2) {
+  transform: rotate(30deg) skew(60deg);
+}
+
+.cn-wrapper li:nth-child(3) {
+  transform: rotate(60deg) skew(60deg)
+}
+
+.cn-wrapper li:nth-child(4) {
+  transform: rotate(90deg) skew(60deg);
+}
+
+.cn-wrapper li:nth-child(5) {
+  transform: rotate(120deg) skew(60deg);
+}
+.cn-wrapper li:nth-child(6) {
+  transform: rotate(150deg) skew(60deg);
+}
+.cn-wrapper li:nth-child(7) {
+  transform: rotate(180deg) skew(60deg);
+}
+.cn-wrapper li:nth-child(8) {
+  transform: rotate(210deg) skew(60deg);
+}
+.cn-wrapper li:nth-child(9) {
+  transform: rotate(240deg) skew(60deg);
+}
+.cn-wrapper li:nth-child(10) {
+  transform: rotate(270deg) skew(60deg);
+}
+.cn-wrapper li:nth-child(11) {
+  transform: rotate(300deg) skew(60deg);
+}
+.cn-wrapper li:nth-child(12) {
+  transform: rotate(330deg) skew(60deg);
+}
+.cn-wrapper li:nth-child(odd) a {
+  background-color: #e49100;
+  /*background-color: hsla(0, 88%, 63%, 1);*/
+  
+}
+
+.cn-wrapper li:nth-child(even) a {
+  background-color: #ecae00;
+  /*background-color: hsla(0, 88%, 65%, 1);*/
+ 
+}
+</style>
+<body>
+	<div class="" style="margin-left: 0.3rem;margin-right: 0.3rem;position: relative;">
+		<div class="cn-wrapper" id="cn-wrapper">
+		   <ul>
+		       <li><a href="#"><span class="icon-picture">50元<br> 电子券</span></a></li>
+		       <li><a href="#"><span class="icon-headphones">IPTV体验券</span></a></li>
+		       <li><a href="#"><span class="icon-home">宽带体验券</span></a></li>
+		       <li><a href="#"><span class="icon-facetime-video">千元智能机</span></a></li>
+		       <li><a href="#"><span class="icon-envelope-alt">20元<br> 电子券</span></a></li>
+		       <li><a href="#"><span class="icon-envelope-alt">500MB<br> 省内流量包</span></a></li>
+		       <li><a href="#"><span class="icon-picture"></span></a></li>
+		       <li><a href="#"><span class="icon-headphones"></span></a></li>
+		       <li><a href="#"><span class="icon-home"></span></a></li>
+		       <li><a href="#"><span class="icon-facetime-video"></span></a></li>
+		       <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
+		       <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
+		   </ul>
+		</div>
+	</div>
+</body>
+</html>
